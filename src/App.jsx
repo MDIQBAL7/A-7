@@ -1,6 +1,7 @@
 
 import './App.css'
 import CustomerTickets from './components/CustomerTickets'
+import Foooter from './components/Foooter';
 import Hero from './components/Hero'
 import Nav from './components/Nav'
 const jsonPromise = async () => {
@@ -16,6 +17,7 @@ function App() {
       <Nav></Nav>
       <Hero></Hero>
       <CustomerTickets callPromise = {callPromise}></CustomerTickets>
+      <Foooter></Foooter>
     </>
   )
 }

@@ -5,7 +5,7 @@ const Ticket = ({ ticket }) => {
   const { id, title, description, customer, priority, createdAt, status } =
     ticket;
   return (
-    <div className="bg-white border-2 border-red-400 rounded-md p-3 w-[400px]">
+    <button className="bg-white shadow-sm rounded-md p-3 w-[400px] cursor-pointer">
       <div className="flex items-center justify-between mb-1">
         <h1 className="font-bold">{title}</h1>
         <p className="bg-[#B9F8CF] px-4 py-1 rounded-3xl flex items-center gap-x-1">
@@ -24,7 +24,7 @@ const Ticket = ({ ticket }) => {
           <span><i class="fa-solid fa-calendar mr-1"></i>{createdAt}</span>
         </div>
       </div>
-    </div>
+    </button>
   );
 };
 
