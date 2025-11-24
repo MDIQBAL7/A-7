@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue on dashboard",
+    "description": "User unable to access the dashboard after entering correct credentials.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2025-11-24"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway timeout",
+    "description": "Payment request takes too long and fails during checkout.",
+    "customer": "Sarah Lee",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdCreated": "2025-11-24"
+  },
+  {
+    "id": 3,
+    "title": "UI bug in profile page",
+    "description": "Profile image not updating after user uploads a new image.",
+    "customer": "Michael Smith",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-11-23"
+  },
+  {
+    "id": 4,
+    "title": "Order cancellation error",
+    "description": "System returns a 500 error when user tries to cancel an order.",
+    "customer": "Emma Brown",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2025-11-22"
+  },
+  {
+    "id": 5,
+    "title": "Email notifications not sending",
+    "description": "Automatic order confirmation emails are not triggering.",
+    "customer": "Chris Adams",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-11-21"
+  },
+  {
+    "id": 6,
+    "title": "Search results loading slowly",
+    "description": "Search results take over 6 seconds to load for certain keywords.",
+    "customer": "Olivia Carter",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-11-20"
+  },
+  {
+    "id": 7,
+    "title": "Mobile layout broken",
+    "description": "Home page layout breaks on small screen devices below 360px.",
+    "customer": "Liam Wilson",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2025-11-20"
+  },
+  {
+    "id": 8,
+    "title": "Cart items not updating",
+    "description": "Quantity changes in the cart are not reflected automatically.",
+    "customer": "Sophia Martinez",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-11-19"
+  },
+  {
+    "id": 9,
+    "title": "Report export failing",
+    "description": "CSV export function returns corrupt file for large datasets.",
+    "customer": "Daniel Evans",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2025-11-19"
+  },
+  {
+    "id": 10,
+    "title": "Two-factor authentication error",
+    "description": "Some users receiving expired OTP codes immediately after request.",
+    "customer": "Isabella Turner",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2025-11-18"
+  }
+]
