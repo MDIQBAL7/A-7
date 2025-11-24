@@ -1,4 +1,5 @@
 
+import { useState } from 'react';
 import './App.css'
 import CustomerTickets from './components/CustomerTickets'
 import Foooter from './components/Foooter';
@@ -10,13 +11,19 @@ return res.json();
 };
 const callPromise = jsonPromise();
 function App() {
- 
+  const [customerticket, setCustomerticket] = useState([]);
+  const clickedTicket = (ticket) => {
+   setCustomerticket([...customerticket, ticket ])
+ }
 
   return (
     <>
       <Nav></Nav>
-      <Hero></Hero>
-      <CustomerTickets callPromise = {callPromise}></CustomerTickets>
+      <Hero customerticket = {customerticket}></Hero>
+      <CustomerTickets 
+      callPromise = {callPromise}
+      clickedTicket = {clickedTicket}
+      ></CustomerTickets>
       <Foooter></Foooter>
     </>
   )

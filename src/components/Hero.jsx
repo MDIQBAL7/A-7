@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "../assets/vector1.png";
 import image2 from "../assets/vector2.png";
-const Hero = () => {
+const Hero = ({customerticket}) => {
   return (
     <div className="max-w-[1200px] mx-auto mt-14 text-white font-bold">
       <div className="flex items-center justify-around text-center">
@@ -18,7 +18,7 @@ const Hero = () => {
           }}
         >
           <h1 className="text-xl mt-11 ">In-Progress</h1>
-          <p className="text-5xl mt-3">0</p>
+          <p className="text-5xl mt-3">{customerticket.length}</p>
         </div>
         <div
           className="w-[550px] h-[230px] p-5  rounded-md"

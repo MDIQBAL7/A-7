@@ -35,19 +35,19 @@ const Foooter = () => {
         <nav>
           <h6 className="text-white text-lg">Social Links</h6>
           <a className="link link-hover">
-            <i class="fa-brands fa-x-twitter mr-2"></i>
+            <i className="fa-brands fa-x-twitter mr-2"></i>
             @CS — Ticket System
           </a>
           <a className="link link-hover">
-            <i class="fa-brands fa-linkedin-in mr-2"></i>
+            <i className="fa-brands fa-linkedin-in mr-2"></i>
             @CS — Ticket System
           </a>
           <a className="link link-hover">
-            <i class="fa-brands fa-facebook mr-2"></i>
+            <i className="fa-brands fa-facebook mr-2"></i>
             @CS — Ticket System
           </a>
           <a className="link link-hover">
-            <i class="fa-solid fa-envelope mr-2"></i>
+            <i className="fa-solid fa-envelope mr-2"></i>
             support@cst.com
           </a>
         </nav>
