@@ -21,10 +21,15 @@ function App() {
       <Nav></Nav>
       <Hero customerticket = {customerticket}></Hero>
       <CustomerTickets 
-      callPromise = {callPromise}
-      clickedTicket = {clickedTicket}
+          callPromise = {callPromise}
+          clickedTicket = {clickedTicket}
+          customerticket = {customerticket}
       ></CustomerTickets>
       <Foooter></Foooter>
+
+
+
+      
     </>
   )
 }

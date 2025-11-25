@@ -1,8 +1,10 @@
 import React, { use } from "react";
 import Ticket from "./Ticket";
+import Cust from "./Cust";
 
-const CustomerTickets = ({ callPromise, clickedTicket }) => {
+const CustomerTickets = ({ callPromise, clickedTicket, customerticket }) => {
   const toUse = use(callPromise);
+  // console.log(customerticket)
   return (
     <div className="bg-[#F5F5F5]"> 
         <div className="max-w-[1150px] mx-auto mt-9">
@@ -21,7 +23,13 @@ const CustomerTickets = ({ callPromise, clickedTicket }) => {
           ))}
         </div>
         <div>
-           <small className="text-[#627382]">Select a ticket to add to Task Status</small>
+         <small className = {`text-[#627382] `}>Select a ticket to add to Task Status</small>
+            <div>
+              {
+                customerticket.map(cust => <Cust cust = {cust}></Cust> )
+              }
+                
+            </div>      
         </div>
       </div>
     </div>
