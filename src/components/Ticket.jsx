@@ -10,7 +10,7 @@ const Ticket = ({ ticket, clickedTicket }) => {
   return (
     <button
       onClick={() => tickedCall(ticket)}
-      className="bg-white shadow-sm rounded-md p-3 w-[400px] cursor-pointer"
+      className="bg-white shadow-sm rounded-md p-3 mx-auto sm:mx-2 max-w-[400px] cursor-pointer"
     >
       <div className="flex items-center justify-between mb-1">
         <h1 className="font-bold">{title}</h1>

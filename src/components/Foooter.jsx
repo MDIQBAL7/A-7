@@ -3,8 +3,8 @@ import React from "react";
 const Foooter = () => {
   return (
     <div className="bg-neutral mt-6 py-9">
-      <footer className="footer sm:footer-horizontal text-neutral-content max-w-[1150px] mx-auto">
-        <nav>
+      <footer className="footer grid grid-cols-2 items-center justify-items-center sm:grid-cols-5  text-neutral-content max-w-[1150px] mx-auto">
+        <nav className="ml-6 sm:ml-0">
           <h6 className="text-white text-lg">CS — Ticket System</h6>
           <p className="max-w-[350px]">
             Lorem Ipsum is simply dummy text of the printing and typesetting

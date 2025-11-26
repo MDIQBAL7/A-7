@@ -5,8 +5,7 @@ const Cust = ({ cust, resolvedTicket }) => {
     resolvedTicket(cust)
   }
   return (
-    <div>
-    
+    <div className="flex justify-center sm:justify-between mb-3">
       <div className="bg-white rounded-lg p-4">
         <h1 className="font-semibold text-[#001931] mb-2">{cust.title}</h1>
         <button
