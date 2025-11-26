@@ -15,15 +15,24 @@ function App() {
   const clickedTicket = (ticket) => {
    setCustomerticket([...customerticket, ticket ])
  }
-
+const [resolve, setResolve] = useState([]);
+const resolvedTicket = (cust) => {
+  setResolve([...resolve, cust]);
+  let changeTi =  customerticket.filter(c => c.id !== cust.id);
+  setCustomerticket(changeTi);
+}
   return (
     <>
       <Nav></Nav>
-      <Hero customerticket = {customerticket}></Hero>
+      <Hero 
+      customerticket = {customerticket}
+      resolve = {resolve}
+      ></Hero>
       <CustomerTickets 
           callPromise = {callPromise}
           clickedTicket = {clickedTicket}
           customerticket = {customerticket}
+          resolvedTicket = {resolvedTicket}
       ></CustomerTickets>
       <Foooter></Foooter>
 
