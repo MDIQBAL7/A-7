@@ -9,7 +9,7 @@ const Cust = ({ cust, resolvedTicket }) => {
       <div className="bg-white rounded-lg p-4">
         <h1 className="font-semibold text-[#001931] mb-2">{cust.title}</h1>
         <button
-        onClick={() => clickComplete(cust)}
+        onClick={() => {clickComplete(cust), alert('done')}}
          className="bg-[#02a53b] font-bold rounded-md px-24 py-1.5 text-white cursor-pointer">
           Complete
         </button>

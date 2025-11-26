@@ -5,6 +5,7 @@ import CustomerTickets from './components/CustomerTickets'
 import Foooter from './components/Foooter';
 import Hero from './components/Hero'
 import Nav from './components/Nav'
+  import { ToastContainer } from 'react-toastify';
 const jsonPromise = async () => {
 const res = await fetch('../public/customer.json');
 return res.json();
@@ -35,10 +36,8 @@ const resolvedTicket = (cust) => {
           resolvedTicket = {resolvedTicket}
       ></CustomerTickets>
       <Foooter></Foooter>
-
-
-
       
+    <ToastContainer />
     </>
   )
 }
