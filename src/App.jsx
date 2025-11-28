@@ -7,7 +7,7 @@ import Hero from './components/Hero'
 import Nav from './components/Nav'
   import { ToastContainer } from 'react-toastify';
 const jsonPromise = async () => {
-const res = await fetch('../public/customer.json');
+const res = await fetch('/customer.json');
 return res.json();
 };
 const callPromise = jsonPromise();
